@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+header{
+    padding: 10px;
+    margin-bottom: 5px ;
+}
+header h1{
+    color: rgb(30, 255, 78);
+    margin: 10px;
+    text-shadow: 2px 2px 20px rgb(52, 255, 1);
+}
+.game-area{
+    position: relative;
+}
+.vez{
+    position: absolute;
+    text-align: right;
+    right: 30px;
+    border-radius: 15px;
+    border: rgb(30, 255, 78) 1px solid;
+    background-color: rgb(30,255,78);
+    box-shadow: 2px 2px 25px rgb(52, 255, 1);
+    padding: 20px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.square{
+    width: 120px;
+    height: 120px;
+    border: rgb(30, 255, 78) 1px solid;
+    background-color: rgb(30,255,78);
+    box-shadow: 2px 2px 10px rgb(54, 219, 13);
+    border-radius: 5px;  
+    margin:0.5px;
+    display: inline-block;
+}
+.o, .x{
+    position: relative;
+}
+.o:after{
+    position: absolute;
+    content: "O";
+    font-size: 80px;
+    line-height: 120px;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+.x{
+    position: relative;
+}
+.x:after{
+    position: absolute;
+    content: "X";
+    font-size: 80px;
+    line-height: 120px;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+#reset{
+    margin-left: 12px;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: rgb(30, 255, 78) 1px solid;
+    background-color: rgb(30,255,78);
+    box-shadow: 2px 2px 25px  rgb(52, 255, 1);
+}
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(30, 255, 78);
+    margin: 10px;
+    text-shadow: 2px 2px 20px rgb(52, 255, 1);
+
+}
