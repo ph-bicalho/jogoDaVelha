@@ -87,3 +87,26 @@ footer{
     text-shadow: 2px 2px 20px rgb(52, 255, 1);
 
 }
+
+@media screen and (max-width: 800px) {
+    .vez{
+        display: none;
+    }
+    .square{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .square{
+        height: 90px;
+        width: 90px;
+    }
+}
+@media screen and (max-width: 295px) {
+    .square{
+        height: 80px;
+        width: 80px;
+    }
+}
